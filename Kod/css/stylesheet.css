@@ -1,0 +1,104 @@
+body {
+	font-family: 'Dosis', sans-serif;
+	font-size: 1.8em;
+}
+#content {
+	border: 1px solid #ddd;
+	background: rgba(240, 240, 240, 0.8);
+	margin-top: 170px;
+	margin-bottom: 40px;
+	overflow: auto;
+}
+#footer {
+	border: 1px solid #ddd;
+	background: rgba(240, 240, 240, 0.8);
+	padding: 10px;
+	text-align: center;
+}
+#fb {
+	padding: 23px 15px 0px 30px;
+}
+#random-button {
+	margin: 30px 30px 30px 30px;
+	padding: 11px;
+	font-size: 2em;
+	background: #8cc;
+	border: 1px solid #3bb;
+}
+#profile-button {
+	margin: -40px 0px 0px 160px;
+}
+#brand {
+	padding-top: 30px;
+	font-family: 'Zeyada', cursive;
+	color: #3aa;
+	font-size: 5em;
+	margin: 40px 0px 25px 15px;
+}
+#recipe-favour, #recipe-remove, #share-button {
+	float: right;
+	margin: 20px 0px 5px 5px;
+	font-size: 1em;
+	padding-left: 37px;
+}
+#back, #veg-btn, #veg-cancel {
+	margin: 5px 5px 5px 0;
+	font-size: 1em;
+}
+#recipe-favour {
+	background: url("sprites.png") no-repeat 6px 6px;
+}
+#recipe-remove {
+	background: url("sprites.png") no-repeat 6px -30px;
+}
+#share-button {
+	background:  url("sprites.png") no-repeat 6px -72px;
+}
+#fimage {
+	float: right;
+	max-height: 300px;
+	padding: 25px 10px;
+	margin-bottom: 10px;
+}
+#image {
+	float: right;
+	padding: 10px;
+}
+.navbar {
+	background: rgba(215,215,215,0.5);
+	border-bottom: 1px solid #ddd;
+	color: black;
+}
+.padding {
+	padding: 10px 30px;
+}
+.disfavour-link, .disban-link {
+	border: 1px solid gray;
+	padding: 0 7px;
+	margin: 1px 5px 1px 0;
+	display: inline-block;
+	width: 26px;
+	color: gray;
+}
+a.disfavour-link:hover, a.disban-link:hover {
+	text-decoration: none;
+	color: black;
+	border: 1px solid black;
+}
+.portions {
+	font-style: italic;
+}
+.alert-dismissable {
+	margin: 30px 30px 0 30px;
+}
+@media screen and (max-width: 848px){
+	#content {
+		margin-top: 380px;
+	}
+	.navbar {
+		position: absolute;
+	}
+	#image {
+		float: none;
+	}
+}
